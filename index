@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <script    src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+    <center><h1> Green Screen Algorithm </h1></center>
+      <h2> Foreground </h2> 
+      <canvas id="can">
+        </canvas>
+    
+ <input type="file" id="fin"   multiple="false"  accepts="image/*"
+           onchange="upload()">
+    <input type="button" value="filter" 
+           onclick="change()">
+           
+  
